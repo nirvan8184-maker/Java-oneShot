@@ -4,7 +4,7 @@ public class vehicle {
     private String brand;
     private int speed;
 
-    public Vehicle(String brand, int speed) {
+    public vehicle(String brand, int speed) {
         this.brand = brand;
         this.speed = speed;
     }

@@ -8,4 +8,12 @@ public class car extends vehicle {
                              // super cals parent class constructor
         this.doors = doors;
     }
+
+    public int getDoors() {
+        return doors;
+    }
+
+    public void setDoors(int doors) {
+        this.doors = doors;
+    }
 }
