@@ -15,4 +15,11 @@ public class Car {
     public void drive() {
         System.out.println(brand + " is driving at " + speed);
     }
+
+    // getter and setter
+
+    public int getSpeed() {
+        return speed;   // returns the speed of the particular instance that calls this method
+    }
+
 }

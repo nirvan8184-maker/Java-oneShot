@@ -12,5 +12,7 @@ public class ConstructorDemo {
         // Correct instantiation of the Car object
         OOP.Constructorss.Car car2 = new OOP.Constructorss.Car("Dodge", "Yellow", 80); // Corrected instantiation
         car2.drive(); // Using the car2 object to remove the unused variable warning
+
+        System.out.println((car2.getSpeed());
     }
 }
