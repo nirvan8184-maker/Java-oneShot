@@ -8,7 +8,7 @@ public class javaDataTypes {
         boolean b = true;
         int number = 111;
 
-        byte b1 = 128 ; // will give an error as byte range is -128 to 127
+        byte b1 = 127; // Fixed: Changed value to 127 as byte range is -128 to 127
 
         // byte and short are not used frequently, but it can be used when there is a shortage of memory or you know the exact value that will not be exceeded
 

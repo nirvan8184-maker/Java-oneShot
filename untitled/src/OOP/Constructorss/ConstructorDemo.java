@@ -13,6 +13,7 @@ public class ConstructorDemo {
         OOP.Constructorss.Car car2 = new OOP.Constructorss.Car("Dodge", "Yellow", 80); // Corrected instantiation
         car2.drive(); // Using the car2 object to remove the unused variable warning
 
-        System.out.println((car2.getSpeed());
+        // Fixed syntax error: added missing closing parenthesis
+        System.out.println(car2.getSpeed());
     }
 }

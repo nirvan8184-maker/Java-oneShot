@@ -16,69 +16,80 @@ public class controlFlow {
 
     public static void main(String[] args) {
         // if-else
-        int age =20;
+        int age = 20;
         if (age > 18) {
             System.out.println("You are an adult.");
-    } else {
-            System.out.println(" you are an minor.");
+        } else {
+            System.out.println("You are a minor.");
+        }
 
-         // if -else ladder
-         int marks = 90;
-         if (marks > 90) {
-             System.out.println("Grade A");
-         } else if (marks > 75) {
-             System.out.println("Grade B");
-         } else if (marks > 60) {
-             System.out.println("Grade C");
-         } else {
-             System.out.println("Grade F");
-         }
+        // if-else ladder
+        int marks = 90;
+        if (marks > 90) {
+            System.out.println("Grade A");
+        } else if (marks > 75) {
+            System.out.println("Grade B");
+        } else if (marks > 60) {
+            System.out.println("Grade C");
+        } else {
+            System.out.println("Grade F");
+        }
 
-         // switch
-         String day = "Monday";
-         switch (day) {
-             case "Monday": System.out.println("Start of the work week");
-             case "Friday": System.out.println("Last day of  week");
-             default: System.out.println("Midweek days");
+        // switch
+        String day = "Monday";
+        switch (day) {
+            case "Monday":
+                System.out.println("Start of the work week");
+                break;
+            case "Friday":
+                System.out.println("Last day of the week");
+                break;
+            default:
+                System.out.println("Midweek days");
+                break;
+        }
 
-         // loops
-                 for (int i = 0; i < 10; i++) {
-                     System.out.println("count: " + i);
-                 }
-         // While loop
-         int num = 3;
-            while (num > 0) {
-                System.out.println("num: " + num);
-                num--;
-            }
+        // loops
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Count: " + i);
+        }
 
-         // do-while loop
-         int n = 3;
-            do {
-                System.out.println("n: " + n);
-                n--;
-            } while (n > 0);
-         // Enhanced for each loop
-                 String[] fruits = {"Apple", "Banana"};
-                 for (String a : fruits) {
-                     System.out.println("Fruit:" + a);
-                 }
+        // While loop
+        int num = 3;
+        while (num > 0) {
+            System.out.println("Num: " + num);
+            num--;
+        }
 
-         // iterating an array using for loop
-                 for (int i =0; i< fruits.length; i++) {
-                     System.out.println("Fruit:" + fruits[i]);
-                 }
+        // do-while loop
+        int n = 3;
+        do {
+            System.out.println("N: " + n);
+            n--;
+        } while (n > 0);
 
-         // Jump statements
-         //break
-         for (int i = 0; i < 10; i++){
-             if (i == 3) break;
-             System.out.println("Count: " + i);
-         } // Using break on condition i == 3 will exit the loop when i is 3.
+        // Enhanced for each loop
+        String[] fruits = {"Apple", "Banana"};
+        for (String a : fruits) {
+            System.out.println("Fruit: " + a);
+        }
 
-         // continue
-                     for (int i = 0; i < 10; i++){
-                     if (i == 3) continue;
-                     System.out.println("Count: " + i);
-                 }        // Using continue on condition i == 3 will skip the iteration when i is 3.
+        // Iterating an array using for loop
+        for (int i = 0; i < fruits.length; i++) {
+            System.out.println("Fruit: " + fruits[i]);
+        }
+
+        // Jump statements
+        // break
+        for (int i = 0; i < 10; i++) {
+            if (i == 3) break;
+            System.out.println("Count: " + i);
+        } // Using break on condition i == 3 will exit the loop when i is 3.
+
+        // continue
+        for (int i = 0; i < 10; i++) {
+            if (i == 3) continue;
+            System.out.println("Count: " + i);
+        } // Using continue on condition i == 3 will skip the iteration when i is 3.
+    }
 }
