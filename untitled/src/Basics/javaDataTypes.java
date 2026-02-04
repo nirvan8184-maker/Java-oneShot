@@ -1,3 +1,5 @@
+package Basics;
+
 public class javaDataTypes {
     public static void main(String[] args) {
 
@@ -14,7 +16,7 @@ public class javaDataTypes {
 
         // non-primitive data types
         // strings, arrays, classes, interface
-        // string is a non-primitive data type as it is similar to array of characters and it has methods to perform certain operations
+        // string is a non-primitive data type as it is similar to array of characters and it has Basics.methods to perform certain operations
 
         int[] marks = {1,2,3,4};
         //array is accessed thru index starting from 0
