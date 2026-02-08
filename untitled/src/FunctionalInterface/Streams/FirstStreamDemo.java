@@ -30,5 +30,12 @@ public class FirstStreamDemo {
         Stream<Integer> integerStream2 = integerStream1.filter(num -> num % 2 == 0);  // filter is a method from stream which requires a predicate as an argument
         List<Integer> evenNumbers2 = integerStream2.toList(); // terminal operation
         System.out.println("Even numbers using streams: " + evenNumbers2);
+
+
+        //using stream but more concise way
+        List<Integer> evenNumbers3 = numbers.stream()
+                .filter(num -> num % 2 == 0)
+                .toList();
+        System.out.println("Even numbers using streams in concise way: " + evenNumbers3);
     }
 }
