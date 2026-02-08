@@ -1,4 +1,4 @@
-package FunctionalInterface;
+package FunctionalInterface.Streams;
 
 import java.util.Arrays;
 import java.util.List;
