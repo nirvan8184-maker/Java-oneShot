@@ -1,10 +1,10 @@
 package FunctionalInterface.Streams.Intermediate;
 
 public class Book {
-    String title;
+    public String title;
     int publicationYear;
-    double price;
-    String category;
+    public double price;
+    public String category;
 
     public Book(String title, int publicationYear, double price, String category) {
         this.title = title;
